@@ -46,6 +46,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 // Calls useData() function
         useData()
+// nav is a helper variable referring to navBar in navController (saves typing)
+        let nav = self.navigationController?.navigationBar
+        nav?.barStyle = UIBarStyle.Black
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,6 +69,13 @@ class ViewController: UIViewController {
     func addData(person: PersonData) {
         data.append(person.person)
         print(data)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.destinationViewController is PeopleTableViewController {
+            let vc = segue.destinationViewController as? PeopleTableViewController
+            vc?.dataCopy = data
+        }
     }
 }
 

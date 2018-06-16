@@ -13,6 +13,7 @@
 		A52490AD209E5B6300748946 /* Fun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A52490AB209E5B6300748946 /* Fun.xcdatamodeld */; };
 		A52490AF209E5B6300748946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52490AE209E5B6300748946 /* Assets.xcassets */; };
 		A52490B2209E5B6300748946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52490B0209E5B6300748946 /* LaunchScreen.storyboard */; };
+		A5BC7EDC20D4A4D700BD7075 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC7EDB20D4A4D700BD7075 /* PeopleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A52490AE209E5B6300748946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52490B1209E5B6300748946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52490B3209E5B6300748946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BC7EDB20D4A4D700BD7075 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A52490A4209E5B6300748946 /* AppDelegate.swift */,
 				A52490A6209E5B6300748946 /* ViewController.swift */,
 				A52490A8209E5B6300748946 /* Main.storyboard */,
+				A5BC7EDB20D4A4D700BD7075 /* PeopleTableViewController.swift */,
 				A52490AE209E5B6300748946 /* Assets.xcassets */,
 				A52490B0209E5B6300748946 /* LaunchScreen.storyboard */,
 				A52490B3209E5B6300748946 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				A52490A7209E5B6300748946 /* ViewController.swift in Sources */,
 				A52490AD209E5B6300748946 /* Fun.xcdatamodeld in Sources */,
+				A5BC7EDC20D4A4D700BD7075 /* PeopleTableViewController.swift in Sources */,
 				A52490A5209E5B6300748946 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,7 @@
 				A52490B8209E5B6300748946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
