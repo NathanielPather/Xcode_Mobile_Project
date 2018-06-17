@@ -8,8 +8,7 @@
 
 /* Goals
  
- Display data array somewhere
-    Perhaps as a tableview
+Make table view look nicer.
  
  */
 

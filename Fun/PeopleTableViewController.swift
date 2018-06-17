@@ -46,6 +46,14 @@ class PeopleTableViewController: UITableViewController {
         cell.textLabel!.text = dataCopy[indexPath.row]
         return cell
     }
+    
+    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerCell = tableView.dequeueReusableCellWithIdentifier("headerCell")
+        headerCell?.textLabel!.text = "Contacts"
+        headerCell?.textLabel?.textAlignment = NSTextAlignment.Center
+        headerCell?.backgroundColor = UIColor.grayColor()
+        return headerCell
+    }
 
     /*
     // Override to support conditional editing of the table view.
