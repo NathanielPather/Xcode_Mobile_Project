@@ -6,7 +6,9 @@ The purpose of this project is to grow my xcode and swift swift skills, among ot
 Functionality:
 Person model to template person objects.
 Hello button to create person objects, add them to storage, and present them visually.
+Storage of people is displayed visually in a table view controller.
 
 Goals:
-Create view to present all person objects visually. Perhaps in a table view.
+Goals can be found in ViewController.swift file at the top of the file as a comment. I will also add them here however keep in mind the README.md file may be out of date.
 
+Make table view look nicer.
